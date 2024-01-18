@@ -1,9 +1,22 @@
 body{
     background-color: black;
-    color: red;
 }
-h1{
-    text-align: center;
-    margin-top: 275px;
-    font-size: 80px;
+.leftbox{
+
+    width: 300px;
+    display: inline-block;
+}
+.rightbox{
+    border: 2px solid blue;
+    width: 300px;
+    margin-left: 2000px;
+    display: inline-block;
+}
+.leftbox img{
+    height: 94px;
+    width: 167px;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
