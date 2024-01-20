@@ -61,15 +61,34 @@ body{
     
 }
 .centerbox{
-    border: 2px solid green;
-    /* display: inline-block; */
-    display: flex;
-    width: 500px;
-    margin-left: 466px;
+    /* border: 2px solid green; */
+    display: inline-block;
+    /* display: flex; */
+    /* width: 500px; */
+    margin-left: 375px;
     position: relative;
     bottom: 105px;
     /* flex-direction: row; */
+    /* margin-right: 3px; */
+
+    
 }
-li a{
-  display: inline;
+.centerbox li{
+    display: inline;
+    padding-left: 75px;
+    font-size: 27px;
+    
+}
+.centerbox a{
+    text-decoration: none;
+    color: yellow;
+}
+.centerbox ul{
+    padding: 13px;
+}
+.centerbox a:hover{
+    color: #ff0b9d;
+    /* background-color: aqua; */
+    text-decoration: underline;
+    font-size: 29px
 }
