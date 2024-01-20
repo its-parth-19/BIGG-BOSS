@@ -60,3 +60,16 @@ body{
     font-size: 55px;
     
 }
+.centerbox{
+    border: 2px solid green;
+    /* display: inline-block; */
+    display: flex;
+    width: 500px;
+    margin-left: 466px;
+    position: relative;
+    bottom: 105px;
+    /* flex-direction: row; */
+}
+li a{
+  display: inline;
+}
