@@ -1,17 +1,20 @@
 body{
     background-color: black;
+    width: 100vw;
 }
 .leftbox{
 
+    /* border: 2px solid red; */
     width: 300px;
+    /* display: inline; */
     display: inline-block;
 }
-.rightbox{
+/* .rightbox{
     border: 2px solid blue;
     width: 300px;
     margin-left: 2000px;
     display: inline-block;
-}
+} */
 .leftbox img{
     height: 94px;
     width: 167px;
@@ -19,4 +22,41 @@ body{
 *{
     margin: 0;
     padding: 0;
+}
+.rightbox{
+    /* border: 2px solid blue; */
+    width: 200px;
+    display: inline-block;
+    /* margin-left: 45px; */
+    /* margin-right: 0px; */
+    margin-left: 85%;
+    position: relative;
+    bottom: 83px;
+    /* width: 6%; */
+    padding-left: 85px;
+
+}
+.contactbutton{
+    /* border: 2px solid green; */
+    border-radius: 14px;
+    height: 34px;
+    width: 81px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+.container{
+    /* border: 2px solid yellow; */
+    color: white;
+    text-align: center;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* margin: 50% auto; */
+    margin-top: 190px;
+    /* margin-bottom: 45px; */
+    padding-bottom: 60px;
+}
+.container h1{
+    font-size: 55px;
+    
 }
