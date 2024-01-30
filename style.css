@@ -122,8 +122,8 @@ body{
     
 }
 #contestant2{
-    position: absolute;
-    top:28px;
+    position: relative;
+    top: -113px;
 }
 .contestants img{
     /* height: 200px;
