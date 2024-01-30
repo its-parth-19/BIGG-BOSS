@@ -121,6 +121,10 @@ body{
     border-radius: 22px;
     
 }
+#contestant2{
+    position: absolute;
+    top:28px;
+}
 .contestants img{
     /* height: 200px;
     width: 200px; */
