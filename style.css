@@ -123,7 +123,10 @@ body{
 }
 #contestant2{
     position: relative;
-    top: -113px;
+    top: -23px;
+}
+#contestant2 .noofvotes{
+    margin-top: 90px;
 }
 .contestants img{
     /* height: 200px;
