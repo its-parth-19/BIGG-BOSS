@@ -128,6 +128,9 @@ body{
 #contestant2 .noofvotes{
     margin-top: 90px;
 }
+#contestant3 .noofvotes{
+    margin-top: 46px;
+}
 .contestants img{
     /* height: 200px;
     width: 200px; */
